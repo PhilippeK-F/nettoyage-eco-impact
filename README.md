@@ -15,15 +15,6 @@ source venv/bin/activate  # Windows : venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-## Lancement
-```bash
-# Pipeline ETL
-python -m src.pipelines.run_pipeline
-
-# Dashboard
-streamlit run dashboard/streamlit_app.py
-```
-
 ## Docker
 ```bash
 docker compose up --build
