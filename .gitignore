@@ -1,0 +1,26 @@
+# Power BI fichiers temporaires
+*.pbix.lock
+*.pbix.bak
+
+# Windows
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# Mac
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Environnement virtuel Python
+venv/
+.venv/
+env/
+
+# Dossiers temporaires
+tmp/
+temp/
+*.tmp
+
+# Fichiers de log
+*.log
