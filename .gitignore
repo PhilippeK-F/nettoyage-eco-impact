@@ -24,3 +24,6 @@ temp/
 
 # Fichiers de log
 *.log
+
+.env
+postgres_data/
